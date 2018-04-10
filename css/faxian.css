@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'iconfont';  /* project id 571296 */
+    src: url('https://at.alicdn.com/t/font_571296_81vb3c7rx8ddkj4i.eot');
+    src: url('https://at.alicdn.com/t/font_571296_81vb3c7rx8ddkj4i.eot?#iefix') format('embedded-opentype'),
+    url('https://at.alicdn.com/t/font_571296_81vb3c7rx8ddkj4i.woff') format('woff'),
+    url('https://at.alicdn.com/t/font_571296_81vb3c7rx8ddkj4i.ttf') format('truetype'),
+    url('https://at.alicdn.com/t/font_571296_81vb3c7rx8ddkj4i.svg#iconfont') format('svg');
+}
+body{
+    background-color: #f5f5f5;
+}
+.fl_top{
+    width: 100%;
+    height: 5.43rem;
+}
+.fl_top img{
+    width: 100%;
+    height: 5.43rem;
+}
+.fl_content{
+    width: 100%;
+    height: 4.92rem;
+    margin-top: 0.2rem;
+    /*background-color: #e81919;*/
+}
+.fl_content_item{
+    width: 50%;
+    height: 1.64rem;
+    float: left;
+    background-color: #fff;
+    padding-left: .3rem;
+    padding-top: 0.4rem;
+    position: relative;
+    border-right:0.02rem solid #ededed;
+    border-bottom:0.02rem solid #ededed ;
+}
+.fl_content_item2{
+    border-right: 0;
+}
+.fl_content_title1{
+    width:1.5rem ;
+    height: .3rem;
+    font-size: 0.3rem;
+    color:#e88f28;
+}
+.fl_content_title1 a{
+     color:#e88f28;
+}
+.fl_content_title2{
+    width:2.5rem ;
+    height: .3rem;
+    font-size: 0.24rem;
+    color:#999999;
+    margin-top: .2rem;
+}
+.fl_content_img{
+    width: 1rem;
+    height: 1rem;
+    position: absolute;
+    right:0.1rem;
+    top:.2rem;
+}
+.fl_content_img img{
+    width: 1rem;
+    height: 1rem;
+}
+.gift{
+    width: 100%;
+    height: 1.44rem;
+    margin-top: 0.2rem;
+    border-top: 0.02rem solid #eeeeee;
+    background-color: #fff;
+    padding-top: .25rem;
+}
+.gift_content{
+    width: 2.8rem;
+    height: .9rem;
+    margin:0 auto;
+    /*background-color: #5198f7;*/
+    text-align: center;
+    line-height: .4rem;
+    position: relative;
+}
+.gift_content span{
+    font-size: .34rem;
+    color:#000;
+    font-weight: 800;
+}
+.gift_line1{
+    width: 0.36rem;
+    height: 0.04rem;
+    background-color: #000;
+    position: absolute;
+    left: 0.1rem;
+    top:.44rem;
+}
+.gift_line2{
+    width: 0.36rem;
+    height: 0.04rem;
+    background-color: #000;
+    position: absolute;
+    left: 2.2rem;
+    top:.44rem;
+}
+fl_content::-webkit-scrollbar{
+    display: none;
+    display: block;
+}
